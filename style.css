@@ -368,7 +368,7 @@ a {
     color: #A0DA7A;
 }
 
-@media (min-width: 1920px) {
+@media (min-width: 1024px) {
 
 
     .menu-desktop {
@@ -414,6 +414,34 @@ a {
     font-size: 136px;
     font-weight: 600;
 }
+.hero p{
+font-size: 24px;
 
+}
+.hero img{
+    height: 769px;
+    width:1640;
+}
+.dream-job h2{
+font-size: 100px;
+margin-top: 301px;
+}
+.dream-job img{
+    margin-top: 80px;
+    height: auto;
+    width: 1640px;
+}
+.body-choose{
+    margin-top: 300px;
+margin: 201px;
+}
+.body-choose h2{
+    font-size: 100px;
+    padding: 100px;
+}
+.card-body{
+    display: flex;
+flex-direction: row;
+}
 
 }

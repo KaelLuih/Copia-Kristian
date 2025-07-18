@@ -176,6 +176,10 @@ a {
     margin-bottom: 3.125rem;
 }
 
+.imagem-desktop {
+    display: none;
+}
+
 .card {
 
     font-weight: 500;
@@ -410,38 +414,128 @@ a {
         text-align: center;
     }
 
-.hero h2{
-    font-size: 136px;
-    font-weight: 600;
-}
-.hero p{
-font-size: 24px;
+    .hero h2 {
+        font-size: 136px;
+        font-weight: 600;
+    }
 
+    .hero p {
+        font-size: 24px;
+
+    }
+
+    .hero img {
+        height: auto;
+        width: 1640px;
+    }
+
+    .dream-job h2 {
+        font-size: 100px;
+        margin-top: 301px;
+    }
+
+    .dream-job img {
+        margin-top: 80px;
+        height: auto;
+        width: 1640px;
+    }
+
+    .body-choose {
+        margin-top: 300px;
+        margin: 201px;
+    }
+
+    .body-choose h2 {
+        font-size: 100px;
+        padding: 100px;
+    }
+
+
+
+    .choose-box {
+        display: flex;
+        flex-direction: row;
+        gap: 99px;
+    }
+
+    .card-column {
+        display: flex;
+        flex-direction: column;
+        margin-top: 60px;
+        width: 842px;
+        height: 130px;
+        gap: 26px;
+    }
+
+    .card-body h3 {
+        font-size: 30px;
+    }
+
+    .card-body h4 {
+        max-width: 100%;
+
+    }
+
+    .imagem-mobile {
+        display: none;
+    }
+
+    .imagem-desktop {
+        display: block;
+        width: 517px;
+        height: auto;
+        gap: 99px;
+    }
+
+    .card-icon .texto {
+        font-size: 20px;
+    }
+
+    .footer-inner {
+        padding-top: 100px;
+        margin: 142px;
+        max-width: 100%;
+    }
+
+    .footer-text {
+        display: flex;
+        flex-direction: row;
+     
+    }
+
+    .footer-text h3 {
+
+        font-size: 136px;
+        width: 80%;
+    }
+
+    .footer-text h4 {
+        font-family: var(--font-text);
+        align-items: center;
+        font-size: 24px;
+        max-width: 100%;
+        width: 100%;
+        font-weight: 400;
+   
+    }
+
+    .footer-text-bottom {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 36px;
+    }
+.learn-more{
+    padding: 15px 20px;
 }
-.hero img{
-    height: 769px;
-    width:1640;
+.after-bottom{
+    display: NONE;
 }
-.dream-job h2{
-font-size: 100px;
-margin-top: 301px;
-}
-.dream-job img{
-    margin-top: 80px;
-    height: auto;
-    width: 1640px;
-}
-.body-choose{
-    margin-top: 300px;
-margin: 201px;
-}
-.body-choose h2{
-    font-size: 100px;
-    padding: 100px;
-}
-.card-body{
-    display: flex;
-flex-direction: row;
+.footer-divider {
+    border: 0;
+    height: 1px;
+    width: 100%;
+    background: rgba(255,255,255,0.5);
+    margin: 5rem 0 4.9375rem;
 }
 
 }

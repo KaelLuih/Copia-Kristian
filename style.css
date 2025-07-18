@@ -458,17 +458,32 @@ a {
         gap: 99px;
     }
 
+    .card {
+        font-family: var(--font-text);
+        margin-right: 50px;
+        margin-bottom: 0;
+
+    }
+
+
     .card-column {
         display: flex;
         flex-direction: column;
         margin-top: 60px;
         width: 842px;
         height: 130px;
-        gap: 26px;
+        gap: 20px;
+    }
+
+    .card-body {
+        margin-top: 46px;
+        padding: 30px;
+        margin: 0;
+
     }
 
     .card-body h3 {
-        font-size: 30px;
+        font-size: 25px;
     }
 
     .card-body h4 {
@@ -481,10 +496,10 @@ a {
     }
 
     .imagem-desktop {
-        display: block;
+        display: flex;
         width: 517px;
         height: auto;
-        gap: 99px;
+        margin: 50px;
     }
 
     .card-icon .texto {
@@ -495,18 +510,19 @@ a {
         padding-top: 100px;
         margin: 142px;
         max-width: 100%;
+        gap: 283px;
     }
 
     .footer-text {
         display: flex;
         flex-direction: row;
-     
+        gap: 283px;
     }
 
     .footer-text h3 {
 
         font-size: 136px;
-        width: 80%;
+        width: 90%;
     }
 
     .footer-text h4 {
@@ -516,7 +532,7 @@ a {
         max-width: 100%;
         width: 100%;
         font-weight: 400;
-   
+
     }
 
     .footer-text-bottom {
@@ -524,18 +540,92 @@ a {
         flex-direction: column;
         margin-bottom: 36px;
     }
-.learn-more{
-    padding: 15px 20px;
-}
-.after-bottom{
-    display: NONE;
-}
-.footer-divider {
-    border: 0;
-    height: 1px;
-    width: 100%;
-    background: rgba(255,255,255,0.5);
-    margin: 5rem 0 4.9375rem;
-}
+
+    .learn-more {
+        padding: 10px 15px;
+    }
+
+    .after-bottom {
+        justify-content: center;
+        margin: 10rem 10rem;
+        max-width:
+            100%;
+    }
+
+    .footer-row-desktop {
+        margin: 0;
+        font-size: 22px;
+        font-family: var(--font-text);
+        display: flex;
+        justify-content: space-between;
+        max-width: 87%;
+        margin-right: 50px;
+        margin-left: 50px;
+        gap: 10px;
+
+    }
+
+    .footer-dsc {
+        margin: 0;
+        max-width: 50%;
+    }
+
+    .footer-mid-part {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20PX;
+        padding: 0px;
+        flex: 1;
+        max-width: 85%;
+
+    }
+
+    .footer-mid-part h4 {
+        font-size: 40px;
+    }
+
+    .footer-mid-part h5 {
+        font-size: 20px;
+    }
+
+    .footer-end-part {
+
+        display: flex;
+        justify-content: space-between;
+        margin: 1.3125rem;
+        gap: 100px;
+    }
+
+    .about,
+    .terms,
+    .social {
+        margin: 2rem;
+    }
+
+    .teste {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .footer-end-part ul li a {
+        font-size: 22px;
+
+
+    }
+
+    .esp-link {
+
+        gap: 0.625rem;
+    }
+
+    .footer-copy {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+
 
 }
